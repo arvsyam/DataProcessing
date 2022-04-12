@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
             if(checkBox.isChecked){
                 editor.putString("username",et_username.text.toString())
-                editor.putString("username",et_username.text.toString())
+                editor.putString("password",et_password.text.toString())
                 editor.putBoolean("isRemember",checkBox.isChecked)
                 editor.commit()
             }else{
