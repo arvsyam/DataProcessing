@@ -43,5 +43,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //split button library
-    implementation "com.github.kojofosu:SplitButton"
+    implementation "com.github.kojofosu:SplitButton:1.1"
 }
